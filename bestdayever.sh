@@ -1,10 +1,12 @@
 #!/bin/bash
 
-echo "What is your name?"
+#echo "What is your name?"
 
-read name
+#read name
 
 #name="Evil Ben"
+
+name=$1
 
 echo "Good morning $name!!"
 sleep 1
